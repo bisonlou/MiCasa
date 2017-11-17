@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+    <color name="pink">#E91E63</color>
+    <color name="dark_pink">#D81B60</color>
+    <color name="color_teal">#009688</color>
+    <color name="color_teal_dark">#004D40</color>
+    <color name="color_brown">#795548</color>
+    <color name="color_brown_dark">#3E2723</color>
+</resources>

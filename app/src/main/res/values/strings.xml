@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Mi Casa</string>
+
+
+    <string name="title_section1">Orders</string>
+    <string name="title_section2">Inventory</string>
+
+    <string name="title_order_menu">Menu</string>
+    <string name="label_members">Members</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_item">Add Item</string>
+    <string name="action_order_item">Order</string>
+    <string name="action_edit_item">Edit</string>
+    <string name="action_delete_item">Delete</string>
+    <string name="action_reset_db">Reset</string>
+    <string name="action_order_done">Done!</string>
+    <string name="action_order_price_update_done">Done! Update price</string>
+    <string name="action_members">Members</string>
+    <string name="action_add_member">Invite Members</string>
+    <string name="action_join_casa">Join a Casa</string>
+
+    <string name="pref_currency_key">currency</string>
+    <string name="pref_currency">Currency Symbol</string>
+    <string name="pref_currency_default">USD</string>
+
+    <string name="account_name">acount_name</string>
+    <string name="account_name_default">Annonymous User</string>
+
+    <string name="account_email">acount_email</string>
+    <string name="account_email_default">Annonymous User</string>
+
+    <string name="casa_account">casa_account</string>
+    <string name="casa_account_default">Annoymous_casa</string>
+
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="alert_dialog_welcome_message">Welcome to your new Casa Family</string>
+    <string name="alert_dialog_uninvited_message">Sorry, but you have not yet been invited to this Casa</string>
+
+    <string name="dialog_item_name">Name</string>
+    <string name="dialog_item_desc">Description</string>
+    <string name="dialog_item_units">Units</string>
+    <string name="dialog_item_price">Price/Unit</string>
+
+    <string name="search_hint">Search Mi Casa</string>
+    <string name="login">Sign In</string>
+    <string name="logout">Sign Out</string>
+
+    <string name="empty_search_results">No items found matching your search</string>
+    <string name="empty_order_results">No orders found.</string>
+
+    <string name="family_name_prompt">To start, please create a Casa account. \n\nAll your orders and inventory
+        will be stored under this account. \n\nIf you need to collaborate with other Casas you could enter their Casa
+        account, or create your own and invite other Casa users. \n\n\nPlease ensure that your Casa account name is unique.
+    </string>
+    <string name="join_casa_prompt">Enter an exiting Casa account.
+        Make sure the Casa owner has invited you already.</string>
+    <string name="finish">Finish</string>
+
+    <string-array name="order_orders_by">
+        <item>Date Descending</item>
+        <item>Date Ascending</item>
+        <item>Item Name Descending</item>
+        <item>Item Name Ascending</item>
+    </string-array>
+
+    <string-array name="order_inventory_by">
+        <item>Item Name Descending</item>
+        <item>Item Name Ascending</item>
+    </string-array>
+
+</resources>

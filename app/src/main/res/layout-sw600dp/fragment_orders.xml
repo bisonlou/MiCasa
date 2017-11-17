@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_orders"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/listView_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty_order_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:text="@string/empty_order_results"/>
+
+
+</LinearLayout>
